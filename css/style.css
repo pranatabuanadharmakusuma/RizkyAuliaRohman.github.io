@@ -1,0 +1,101 @@
+.brand-logo img {
+  width: 45px;
+  margin-right: auto;
+}
+
+.slider h3,
+.slider h5,
+.clients h3 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.philosophy h3 {
+  margin-top: 50px;
+}
+
+.parallax-container {
+  height: 20%;
+}
+
+.parallax img {
+  filter: grayscale(1);
+  opacity: 0.5 !important;
+}
+
+.clients img {
+  max-width: 150px;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+.clients p {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.services .page-footer p {
+  padding-top: 50px;
+}
+
+.page-footer ul {
+  margin: 100px;
+}
+.page-footer li {
+  margin: 20px;
+}
+
+.card-image {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.card-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 90%;
+  margin-top: 35px;
+}
+
+.page-footer img {
+  width: 200px;
+  max-height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .card-image {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  .card-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 90%;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-image {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  .card-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 160px;
+    margin-top: 35px;
+  }
+}
